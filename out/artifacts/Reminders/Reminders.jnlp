@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Reminders.jnlp">
+  <information>
+    <title>Reminders</title>
+    <vendor>Naoufal EL BANTLI</vendor>
+    <description>App to schedule periodic notifications to remind you of stuff.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Reminders.jar" size="15165" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="750" height="524" main-class="com.naoufalel.notify.RemindersApp"  name="Reminders" />
+  <update check="background"/>
+</jnlp>
